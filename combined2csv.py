@@ -16,7 +16,7 @@ def combine():
 
 def init_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('filepath')
+    parser.add_argument('path')
     parser.parse_args()
 
 def main():
