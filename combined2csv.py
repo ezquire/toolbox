@@ -22,7 +22,6 @@ def init_parser():
     args = parser.parse_args()
     return args
 
-
 def main():
     args = init_parser()
     outfile = args.output_file
@@ -30,7 +29,6 @@ def main():
         combine(args.path, r'combined.csv')
     else:
         combine(args.path, outfile)
-    
 
 if __name__ == '__main__':
     main()
